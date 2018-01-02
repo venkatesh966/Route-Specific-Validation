@@ -1,8 +1,8 @@
-var express=require("express");
-var validation=require("validator");//CHECKING THE USER GIVEN VALUES
-var bodyParser=require("body-parser");
+let express=require("express");
+let validation=require("validator");//CHECKING THE USER GIVEN VALUES
+let bodyParser=require("body-parser");
 
-var app = express();
+let app = express();
 
 app.use(bodyParser());
 
