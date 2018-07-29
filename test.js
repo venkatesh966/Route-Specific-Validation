@@ -25,7 +25,10 @@ app.post('/bookissue',function(req,res){
     }
 });
 //THIS IS FOR MEMBERSHIP IN THE LIBRARY
-
+app.get('/membership',function(req,res){
+    res.sendFile('contact.html',{root: './'});
+    res.end('hi');   
+});
 
 console.log("This is for registration ")
 console.log("This is for registration ")
