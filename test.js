@@ -16,7 +16,7 @@ app.post('/bookissue',function(req,res){
     if(!validation.isEmail(req.body.email)) {
                 //True or false return by this function.
         res.send("Email is Bad");
-    } else if(!validation.isAlpha(req.body.user_name)) {
+    } else if(true) {
         res.send("Name is Bad");
     } 
     else{
