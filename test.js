@@ -51,6 +51,8 @@ app.post('/membershiplog',function(req,res){
     }
 });
 
+console.log("I am in consoles")
+
 
 app.listen(3000,function(){
     console.log("Listening at PORT 3000");
