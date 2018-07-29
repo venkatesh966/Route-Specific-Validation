@@ -52,7 +52,7 @@ app.post('/membershiplog',function(req,res){
 });
 
 console.log("I am in consoles")
-
+console.log("I ma i n ot in consoles")
 
 app.listen(3000,function(){
     console.log("Listening at PORT 3000");
