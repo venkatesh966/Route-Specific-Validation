@@ -31,6 +31,8 @@ app.get('/membership',function(req,res){
 });
 
 console.log("This is for registration ")
+console.log("This is for registration ")
+console.log("This is for registration ")
 
 app.post('/membershiplog',function(req,res){
     if(!validation.isEmail(req.body.email)) {
